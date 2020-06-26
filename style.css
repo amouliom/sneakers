@@ -1,0 +1,490 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: transparent;
+  font-family: Montserrat;
+}
+
+a {
+  text-decoration: none;
+  color: #9d9d9d;
+}
+
+li {
+  list-style: none;
+  display: flex;
+}
+
+ul {
+  padding: 0;
+  display: flex;
+}
+
+.brand a {
+  float: left;
+  padding: 20px;
+  margin-right: 200px;
+}
+
+ul li a {
+  padding: 20px;
+}
+
+nav {
+  background-color: #222;
+  position: fixed;
+  width: 100%;
+}
+
+nav a:hover {
+  color: white;
+}
+
+.active a {
+  color: #fff;
+  background-color: #000;
+}
+
+/* sneakers.html */
+
+section.home {
+  padding-top: 100px;
+  height: 100vh;
+}
+
+section.home h1 {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+section.home h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+section.home p {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px;
+}
+
+section.home .fill {
+  height: 480px;
+  background: url("https://weartesters.com/wp-content/uploads/2015/10/Nike-Jordan-Doernbecher-2015-Freestyle-collection.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+/* culture.css */
+
+section.jumbotron {
+  display: flex;
+  align-items: center;
+  height: 300px;
+  width: 100%;
+  color: #000;
+  font-size: 1.5em;
+  background: url("photos/old_sneakers.jpg");
+  background-size: cover;
+}
+
+section.jumbotron div {
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+section.jumbotron div h1 {
+  padding: 20px;
+  font-size: 1.5em;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #000;
+}
+
+div.book {
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: 'left right';
+  align-items: center;
+}
+
+.leftPane {
+  grid-area: left;
+  text-align: center;
+}
+
+div.leftPane div > p {
+  font-size: 1.3em;
+  line-height: 2.3;
+  text-align: left;
+  padding: 40px;
+}
+
+.rightPane {
+  grid-area: right;
+  height: 600px;
+  width: 100%;
+}
+
+#book {
+  background: url("photos/sneakers.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+div.impact {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: 'left right';
+  background-color: #000;
+  align-items: flex-end;
+}
+
+div.impact h1 {
+  color: #fff;
+}
+
+.notRight {
+  grid-area: left;
+  height: 600px;
+  width: 100%;
+}
+
+.notLeft {
+  height: 600px;
+  grid-area: right;
+  text-align: center;
+  color: #fff;
+}
+
+#impact {
+  background: url("photos/lebron.png");
+  background-size: cover;
+  background-position: -40px;
+}
+
+
+div.impact div > p {
+  font-size: 1.3em;
+  line-height: 2.3;
+  text-align: left;
+  padding: 40px;
+  color: #fff;
+}
+
+div.impactextd {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: 'left right';
+  align-items: center;
+}
+
+div.impactextd p {
+  font-size: 1.3em;
+  line-height: 2.2;
+  text-align: left;
+  padding: 15px;
+}
+
+/* sneakerheads.css */
+
+div.sneakerheads {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: 'left right';
+  background-color: #fff;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+div.sneakerheads div > p {
+  font-size: 1.3em;
+  line-height: 2.3;
+  text-align: left;
+  padding: 40px;
+  color: #000;
+}
+
+#sneakerheads {
+  background: url("photos/sneakerhead.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+div.plus {
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: 'left right';
+  align-items: center;
+  background-color: #9d9d9d;
+}
+
+#plus {
+  background: url("photos/kent.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+div.plus div > p {
+  font-size: 1.3em;
+  line-height: 2.3;
+  text-align: left;
+  color: #000;
+  padding: 20px;
+}
+
+/* hypebeast.css */
+
+section.jumbotron2 {
+  height: 171vh;
+  background-color: #222;
+  color: #fff;
+}
+
+section.jumbotron2 div h1 {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+#hype {
+  height: 200px;
+  background: url("photos/hypebeast.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.jumbotron2 p {
+  font-size: 1.3em;
+  line-height: 2.4;
+  padding: 60px 60px 0 60px;
+}
+
+#beast {
+  height: 635px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+div#outfit {
+  height: 500px;
+  background: url("photos/outfit.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* history.css */
+
+section.history {
+  height: 300vh;
+  background-color: #222;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+  "left right"
+  "second right";
+  grid-template-rows: 900px 900px;
+  text-align: center;
+  grid-gap: 80px;
+  color: #9d9d9d;
+  padding: 60px;
+  align-content: center;
+  align-items: center;
+}
+
+section div#history {
+  background: url("photos/lebron.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 100%;
+}
+
+section #history {
+  grid-area: left;
+}
+
+section .second {
+  grid-area: right;
+  font-size: 1.2em;
+  line-height: 1.8;
+}
+
+section .second h1 {
+  line-height: 1.4;
+  color: #9d9d9d;
+  font-size: 1.7em;
+}
+section .second p {
+  text-align: left;
+  padding: 5px;
+}
+
+section #second {
+  grid-area: second;
+  height: 100%;
+  background: url("photos/nike.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* about.html */
+
+section.team {
+  height: 160vh;
+  display: grid;
+  grid-template-columns: 500px 700px;
+  align-content: center;
+
+  font-size: 1.5em;
+}
+
+section.team p  {
+  padding: 20px;
+  margin-top: 40px;
+}
+
+section.team .left {
+  text-align: center;
+
+}
+
+section.team .right {
+  align-self: center;
+  line-height: 2.5;
+}
+
+section.team img {
+  height: 260px;
+  width: 260px;
+  border-radius: 50%;
+  margin-top: 36px;
+}
+
+/* photos.css */
+
+section.shoes {
+  height: 140vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-content: center;
+  grid-row-gap: 10px;
+  padding-left: 40px;
+}
+
+section.shoes div {
+  width: 270px;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+section.shoes :nth-child(1) {
+
+}
+
+section.shoes :nth-child(2) {
+  background: url("photos/grass.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+section.shoes :nth-child(3) {
+  background: url("photos/uproar.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+section.shoes :nth-child(4) {
+  background: url("photos/lebron16.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+section.shoes :nth-child(5) {
+  background: url("photos/kyrie5.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+section.shoes :nth-child(6) {
+  background: url("photos/curry6.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+section.shoes :nth-child(7) {
+  background: url("photos/adapt.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+section.shoes :nth-child(8) {
+  background: url("photos/curry4.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+section.shoes :nth-child(9) {
+  background: url("photos/jordan9.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+section.shoes :nth-child(10) {
+  background: url("photos/metal.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+section.shoes :nth-child(11) {
+  background: url("photos/lebron11.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+section.shoes :nth-child(12) {
+  background: url("photos/kd11.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+section.shoes :nth-child(1) p {
+  width: 100%;
+  height: 40px;
+  background-color: #000;
+  color: #fff;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+section.shoes p {
+  width: 150px;
+  height: 40px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
